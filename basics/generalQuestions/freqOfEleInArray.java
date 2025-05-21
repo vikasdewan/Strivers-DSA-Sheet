@@ -1,4 +1,4 @@
-package basics;
+package generalQuestions;
 
 public class freqOfEleInArray {
  

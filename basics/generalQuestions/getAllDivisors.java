@@ -1,4 +1,4 @@
-package basics;
+package generalQuestions;
 
 import java.util.*;
 
