@@ -4,8 +4,8 @@ public class longestSubArrayofSumK {
     
 
     public static void main(String[] args) {
-        int[] arr = {10,5,2,7,1,9};
-        int k = 2;
+        int[] arr = {-3,2,1};
+        int k = 6;
         System.out.println(longestSubArray(arr, k));
         System.out.println(longestSubArrayOptimal(arr, k));
         System.out.println(getLongestSubarray(arr, k));
@@ -22,11 +22,9 @@ public class longestSubArrayofSumK {
             for(int j= i;j<arr.length;j++){
                 sum+= arr[j];
                 if(sum == k){
-                    currCount++;
+                    currCount = j-i+1;
                 }
-                else if(sum < k){
-                    currCount++;
-                } 
+                 
             }
             maxCount = Math.max(currCount, maxCount);
         }
