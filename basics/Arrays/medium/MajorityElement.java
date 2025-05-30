@@ -1,3 +1,5 @@
+// https://takeuforward.org/plus/dsa/problems/majority-element-i
+
 package Arrays.medium;
 
 import java.util.*;

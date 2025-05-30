@@ -1,3 +1,4 @@
+//https://takeuforward.org/plus/dsa/problems/left-rotate-array-by-one
 package Arrays.Easy;
 
 public class leftShiftArray {

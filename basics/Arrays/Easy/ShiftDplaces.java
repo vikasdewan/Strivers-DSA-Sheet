@@ -1,3 +1,5 @@
+//https://takeuforward.org/plus/dsa/problems/left-rotate-array
+
 package Arrays.Easy;
 import java.util.Arrays;
 

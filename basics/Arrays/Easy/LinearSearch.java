@@ -1,3 +1,4 @@
+//https://takeuforward.org/plus/dsa/problems/linear-search
 package Arrays.Easy;
 
 public class LinearSearch {

@@ -1,3 +1,5 @@
+//https://takeuforward.org/data-structure/check-if-an-array-is-sorted/
+
 package Arrays.Easy;
 
 public class IsArraySorted {

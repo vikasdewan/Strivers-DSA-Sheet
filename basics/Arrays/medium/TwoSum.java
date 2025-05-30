@@ -1,3 +1,5 @@
+//https://takeuforward.org/plus/dsa/problems/two-sum
+
 package Arrays.medium;
 import java.util.HashMap;
 
