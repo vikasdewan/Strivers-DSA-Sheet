@@ -1,4 +1,4 @@
-package BinarySearchQuestions;
+package Lec1;
 
 public class SearchRotatedSortedArray {
     
