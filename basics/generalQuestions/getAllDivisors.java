@@ -5,7 +5,7 @@ import java.util.*;
 public class getAllDivisors {
 
     public static void main(String[] args) {
-        int n = 7;
+        int n = 4;
         ArrayList<Integer> divisors = new ArrayList<>();    
         divisors = getDivisors(n, divisors);
         System.out.println("Divisors of " + n + " are: " + divisors);

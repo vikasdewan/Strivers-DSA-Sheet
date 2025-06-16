@@ -19,7 +19,7 @@ public class mergeSort{
             return arr;
         }
         int mid = arr.length / 2;
-        int[] left = sort(Arrays.copyOfRange(arr, 0, mid));
+        int[] left = sort(Arrays.copyOfRange(arr, 0, mid)); // mid is exclusive here
         int[] right = sort(Arrays.copyOfRange(arr, mid, arr.length));
         return merge(left , right); 
     }
@@ -32,21 +32,17 @@ public class mergeSort{
         int mergedArrIdx =0;
         while(leftArrPointer < left.length && rightArrPointer < right.length){
             if(left[leftArrPointer] < right[rightArrPointer]){
-                merged[mergedArrIdx++] = left[leftArrPointer];
-                leftArrPointer++;
+                merged[mergedArrIdx++] = left[leftArrPointer++];
             }else{
-                merged[mergedArrIdx++] = right[rightArrPointer];
-                rightArrPointer++;
+                merged[mergedArrIdx++] = right[rightArrPointer++];
             }
         }
 
         while(leftArrPointer < left.length){
-            merged[mergedArrIdx++] = left[leftArrPointer];
-            leftArrPointer++;
+            merged[mergedArrIdx++] = left[leftArrPointer++];
         }
         while(rightArrPointer < right.length){
-            merged[mergedArrIdx++] = right[rightArrPointer];
-            rightArrPointer++;
+            merged[mergedArrIdx++] = right[rightArrPointer++];
         }
 
         return merged;
