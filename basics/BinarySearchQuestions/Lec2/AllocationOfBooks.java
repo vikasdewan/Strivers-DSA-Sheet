@@ -36,7 +36,7 @@ public class AllocationOfBooks {
 
     public static int countOfStudent(int[] arr, int maxPagesAllowed) {
         int pages = 0;
-        int count = 1;
+        int stuCount = 1;
 
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] > maxPagesAllowed) {
@@ -46,10 +46,10 @@ public class AllocationOfBooks {
             if (pages + arr[i] <= maxPagesAllowed) {
                 pages += arr[i];
             } else {
-                count++;
+                stuCount++;
                 pages = arr[i];
             }
         }
-        return count;
+        return stuCount;
     }
 }
