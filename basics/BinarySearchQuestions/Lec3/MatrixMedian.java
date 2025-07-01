@@ -1,6 +1,11 @@
 package Lec3;
 import java.util.*;
 public class MatrixMedian {
+
+    //brute force
+    //take the matrix in an arr or list,
+    //sort that
+    // find the mid element of that sorted arr or list. 
     
     public static void main(String[] args) {
         
